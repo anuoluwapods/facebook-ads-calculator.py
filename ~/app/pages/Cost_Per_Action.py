@@ -11,10 +11,10 @@ if st.button('💰'):
   def cpa (x, y):
     return (x * y)
   
-  a = cost
-  b = clicks
+  x = cost
+  y = clicks
   
-  result = cpa(a, b)
+  result = cpa(x, y)
   st.write(result)
   
  
