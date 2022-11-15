@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-st.title('Cost Per click ROI')
+st.title('Cost Per Click ROI')
 
 clicks = st.number_input('Enter no of clicks')
 cpcv = st.number_input('Enter the costt per click value')
