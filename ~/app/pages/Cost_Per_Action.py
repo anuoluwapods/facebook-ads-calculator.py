@@ -10,7 +10,7 @@ curr = st.text_input('Enter currency symbol')
 
 if st.button('💰'):
   cpa = click * cost
-  st.write("Cost Per Action = {} {}". format(cpa, curr))
+  st.write("Cost Per Action = {} {}". format(curr, cpa))
   
  
   
