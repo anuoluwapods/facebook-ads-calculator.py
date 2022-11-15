@@ -9,7 +9,7 @@ click = st.number_input('Enter the average clicks per sale')
 
 if st.button('💰'):
   cpa = click * cost
-  st.write("Cost Per Action = {}". format(cpa))
+  st.write("Cost Per Action = ${}". format(cpa))
   
  
   
