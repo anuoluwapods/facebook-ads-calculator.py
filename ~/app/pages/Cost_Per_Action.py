@@ -1,6 +1,5 @@
 import streamlit as st
-import numpy as np
-import pandas as pd
+import maths
 
 st.title('Calculating the cost per action of an ad')
 
@@ -9,5 +8,5 @@ clicks = st.text_input('Enter the average clicks per sale')
 
 if st.button('💰'):
   def cpa (cost, clicks):
-    return cost * clicks
-  st.write(cpa(cost, clicks))
+    st.write(return cost * clicks)
+ 
