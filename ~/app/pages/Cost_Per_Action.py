@@ -8,5 +8,5 @@ cost = st.text_input('Enter the cost per click')
 clicks = st.text_input('Enter the average clicks per sale')
 
 if st.button('💰'):
-  cpa = costs * clicks
+  cpa = cost * clicks
   st.write(cpa)
