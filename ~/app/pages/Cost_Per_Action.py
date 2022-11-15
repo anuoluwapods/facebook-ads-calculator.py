@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-st.write('Calculating the cost per action of an ad')
+st.title('Cost Per Action Of An Ad')
 
 cost = st.number_input('Enter the cost per click')
 click = st.number_input('Enter the average clicks per sale')
