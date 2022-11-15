@@ -4,8 +4,8 @@ import numpy as np
 
 st.title('Calculating the cost per action of an ad')
 
-cost = st.text_input('Enter the cost per click')
-click = st.text_input('Enter the average clicks per sale')
+cost = st.number_input('Enter the cost per click')
+click = st.number_input('Enter the average clicks per sale')
 
 if st.button('💰'):
   cpa = click * cost
