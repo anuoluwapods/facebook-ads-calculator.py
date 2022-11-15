@@ -9,5 +9,5 @@ rad = st.number_input('Enter Cost of remarketing ad')
 curr1 = st.text_input('Enter currency symbol')
 
 if st.button('💰'):
-  rmad = cpa - rad
+  rmad = (cpa - rad)
   st.write("Cost Of remarketing Ad = {} {}" .format(curr1,rmd))
