@@ -11,4 +11,4 @@ curr1 = st.text_input('Enter currency symbol')
 
 if st.button('💰'):
   clv = (aov * noo * cust)
-  st.write("Cost of remarketing Ad = {}{}".format(curr1, clv))
+  st.write("Customer Lifetime Value = {}{}".format(curr1, clv))
