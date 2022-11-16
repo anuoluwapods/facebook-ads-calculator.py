@@ -11,4 +11,4 @@ curr3 = st.text_input('Enter currency symbol')
 if st.button('💰'):
   cvrvp = (cvrv / 100)
   cpvroi = (crvc * cvrvp)
-  st.write("Conversion Rate ROI = {}{}". format(curr3, cvroi))
+  st.write("Conversion Rate ROI = {}{}". format(curr3, cpvroi))
