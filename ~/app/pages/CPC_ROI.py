@@ -10,4 +10,4 @@ curr2 = st.text_input('Enter currency symbol')
 
 if st.button('💰'):
   cpcroi = (clicks / cpcv)
-  st.write("Cost Per Action = {}{}". format(curr2, cpcroi))
+  st.write("Cost Per Action ROI = {}{}". format(curr2, cpcroi))
