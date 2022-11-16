@@ -10,4 +10,4 @@ reac = st.number_input('Enter the reach value')
 
 if st.button('💰'):
   adfreq = (impr / reac)
-  st.write("Conversion Rate ROI = {}{". format(adfreq))
+  st.write("Conversion Rate ROI = {}". format(adfreq))
