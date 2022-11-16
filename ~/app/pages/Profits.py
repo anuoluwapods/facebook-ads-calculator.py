@@ -12,4 +12,4 @@ curren = st.text_input('Enter currency symbol')
 if st.button('💰'):
   sale = (cpa * sales)
   profit = (clv - sale)
-  st.write("Conversion Rate ROI = {}{}". format(curren, profit))
+  st.write("Profit = {}{}". format(curren, profit))
