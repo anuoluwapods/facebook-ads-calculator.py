@@ -5,7 +5,7 @@ import numpy as np
 st.title('Cost Per Click ROI')
 
 clicks = st.number_input('Enter no of clicks')
-cpcv = st.number_input('Enter the costt per click value')
+cpcv = st.number_input('Enter the cost per click value')
 curr2 = st.text_input('Enter currency symbol')
 
 if st.button('💰'):
