@@ -9,5 +9,5 @@ impr = st.number_input('Enter the impression value')
 reac = st.number_input('Enter the reach value')
 
 if st.button('💰'):
-  adfreq = (imp / reac)
+  adfreq = (impr / reac)
   st.write("Conversion Rate ROI = {}{". format(adfreq))
