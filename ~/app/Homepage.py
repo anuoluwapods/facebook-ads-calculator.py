@@ -5,14 +5,14 @@ import streamlit as st
 st.set_page_config(page_title="Facebook ad")
 
 # setting image
-# image = Image.open('image.png')
+image = Image.open('image.png')
 
 
 col1, col2 = st.columns(2)
 
 col1.header("Facebook Ad Calculator")
 title_1 =  '<p style="font-family:sans-serif; color:White;">To Calculate Facebook ads</p>'
-#col2.image(image)
+col2.image(image)
 
 
 col1.write("[![Project Page](https://img.icons8.com/ios-glyphs/20/ffffff/github.png)](https://github.com/anuoluwapods/facebook-ads-calculator.py) Github") 
