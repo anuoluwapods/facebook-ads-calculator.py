@@ -1,5 +1,6 @@
 #from PIL import Image
 import streamlit as st
+from PIL import Image 
 
 # App title for SEO Optimization
 st.set_page_config(page_title="Facebook ad")
